@@ -1,0 +1,55 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgba(62, 62, 62, 0.983);
+}
+.container{
+    display: flex;
+     align-items: center; 
+     justify-content: center; 
+}
+.calculator{
+    margin-top: 5rem;
+   background-color: black;
+   border-radius: 20px;
+
+   
+}
+input ::placeholder{
+    color: white;
+}
+ input{
+    width: 97%;
+    height: 4rem;
+    outline: none;
+    background: transparent;
+    color: white;
+    padding: 30px 4px;
+    font-size: 28px;
+    text-align: end;
+    
+    
+}
+.btn{
+    color: white;
+    background: transparent;
+    margin: 0.3rem;
+    font-size: larger;
+    border-radius: 30px;
+    height: 4rem;
+    width: 5rem;
+    box-shadow: 2px 2px #3e3;
+}
+.btn:hover{
+    cursor: pointer;
+    font-size: x-large;
+}
+#equalto{
+
+    /* color: white; */
+    /* background-color: rgb(218, 20, 122); */
+}
+.change{
+  color: rgba(223, 158, 39, 0.898);
+}
